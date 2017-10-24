@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>957786702294-j464hol8tp2c6hbt6975k56ddvnq7cfj.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.957786702294-j464hol8tp2c6hbt6975k56ddvnq7cfj</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCMFDzu11BAASgaTzrj5Up7bYd7w9eqS20</string>
+	<key>GCM_SENDER_ID</key>
+	<string>957786702294</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>edu.middlebury.cs466.ShareRide</string>
+	<key>PROJECT_ID</key>
+	<string>shareride-4e54c</string>
+	<key>STORAGE_BUCKET</key>
+	<string>shareride-4e54c.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:957786702294:ios:65b9ff5a1c8162b9</string>
+	<key>DATABASE_URL</key>
+	<string>https://shareride-4e54c.firebaseio.com</string>
+</dict>
+</plist>
