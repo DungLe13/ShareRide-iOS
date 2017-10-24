@@ -1,0 +1,6 @@
+framework module Pods_ShareRide {
+  umbrella header "Pods-ShareRide-umbrella.h"
+
+  export *
+  module * { export * }
+}
