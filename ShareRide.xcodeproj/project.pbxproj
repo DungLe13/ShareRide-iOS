@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0778AD761EBE589E00854C66 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0778AD751EBE589E00854C66 /* MessagesViewController.swift */; };
+		0778AD7A1EBEA36F00854C66 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0778AD791EBEA36F00854C66 /* SettingsViewController.swift */; };
+		0778AD7E1EC10CA500854C66 /* MessagesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0778AD7D1EC10CA400854C66 /* MessagesTableViewCell.swift */; };
+		0778AD801EC11C7100854C66 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0778AD7F1EC11C7100854C66 /* ChatViewController.swift */; };
+		0778AD821EC1218D00854C66 /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0778AD811EC1218D00854C66 /* Channel.swift */; };
+		07BE297F1EAEC8F300BA6F7D /* SettingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BE297E1EAEC8F300BA6F7D /* SettingsTableViewCell.swift */; };
+		07C5116D1EB6E7FD00707B37 /* NotificationsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C5116C1EB6E7FD00707B37 /* NotificationsTableViewCell.swift */; };
+		07C5116F1EB6FAF300707B37 /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C5116E1EB6FAF300707B37 /* NotificationsViewController.swift */; };
+		50E057550A884F730C90DE3F /* Pods_ShareRide.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15EB194B3FBF815F08F416D7 /* Pods_ShareRide.framework */; };
+		7207ECEE1EAEDCA300D5C9C1 /* SegueFromLeft.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207ECED1EAEDCA300D5C9C1 /* SegueFromLeft.swift */; };
+		7207ECF01EAEE2F900D5C9C1 /* SegueFromLeftWithNoNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207ECEF1EAEE2F900D5C9C1 /* SegueFromLeftWithNoNav.swift */; };
+		7207ECF21EAEE4D300D5C9C1 /* SegueFromRightWithNoNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207ECF11EAEE4D300D5C9C1 /* SegueFromRightWithNoNav.swift */; };
+		7207ECF41EAEF2A400D5C9C1 /* ActivitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207ECF31EAEF2A400D5C9C1 /* ActivitiesViewController.swift */; };
+		7207ECF61EAEF4FD00D5C9C1 /* ActivitiesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207ECF51EAEF4FD00D5C9C1 /* ActivitiesTableViewCell.swift */; };
+		7230A51F1EB164410096E89C /* RequestInformationItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7230A51E1EB164410096E89C /* RequestInformationItem.swift */; };
+		7230A5211EB1685F0096E89C /* MyRideDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7230A5201EB1685F0096E89C /* MyRideDetailsViewController.swift */; };
+		7230A5251EB174A00096E89C /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7230A5241EB174A00096E89C /* MainTabBarViewController.swift */; };
+		7242C7971EA84015001E5FD2 /* RideInformationItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7242C7961EA84015001E5FD2 /* RideInformationItem.swift */; };
+		7242C7991EA843CB001E5FD2 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7242C7981EA843CB001E5FD2 /* User.swift */; };
+		7242C79B1EA8450E001E5FD2 /* AvailableRidesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7242C79A1EA8450E001E5FD2 /* AvailableRidesTableViewController.swift */; };
+		7242C79D1EA847C7001E5FD2 /* AvailableRidesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7242C79C1EA847C7001E5FD2 /* AvailableRidesCell.swift */; };
+		7242C79F1EA84978001E5FD2 /* PostRideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7242C79E1EA84978001E5FD2 /* PostRideViewController.swift */; };
+		7242C7A11EA85116001E5FD2 /* RidesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7242C7A01EA85116001E5FD2 /* RidesViewController.swift */; };
+		7242C7A31EA8570D001E5FD2 /* RideDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7242C7A21EA8570D001E5FD2 /* RideDetailsViewController.swift */; };
+		72EC25EC1EA199C1006F3F17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72EC25EB1EA199C1006F3F17 /* AppDelegate.swift */; };
+		72EC25F31EA199C1006F3F17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72EC25F21EA199C1006F3F17 /* Assets.xcassets */; };
+		72EC25F61EA199C1006F3F17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72EC25F41EA199C1006F3F17 /* LaunchScreen.storyboard */; };
+		72EC26001EA1A596006F3F17 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72EC25FF1EA1A596006F3F17 /* LoginViewController.swift */; };
+		72EC26021EA1A5A9006F3F17 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72EC26011EA1A5A9006F3F17 /* RegisterViewController.swift */; };
+		AC2B267A1ED255B20011FD5B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AC2B26791ED255B20011FD5B /* GoogleService-Info.plist */; };
+		AC2B267C1ED2576C0011FD5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC2B267B1ED2576C0011FD5B /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		074DE5A91EA2BD0800E0121B /* ShareRide.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ShareRide.entitlements; sourceTree = "<group>"; };
+		0778AD751EBE589E00854C66 /* MessagesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		0778AD791EBEA36F00854C66 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		0778AD7D1EC10CA400854C66 /* MessagesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesTableViewCell.swift; sourceTree = "<group>"; };
+		0778AD7F1EC11C7100854C66 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		0778AD811EC1218D00854C66 /* Channel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
+		07BE297E1EAEC8F300BA6F7D /* SettingsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewCell.swift; sourceTree = "<group>"; };
+		07C5116C1EB6E7FD00707B37 /* NotificationsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationsTableViewCell.swift; sourceTree = "<group>"; };
+		07C5116E1EB6FAF300707B37 /* NotificationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
+		15EB194B3FBF815F08F416D7 /* Pods_ShareRide.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShareRide.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5071B0FC8073FFA20A3F56F1 /* Pods-ShareRide.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShareRide.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShareRide/Pods-ShareRide.release.xcconfig"; sourceTree = "<group>"; };
+		613118740485C4D18B8A1132 /* Pods-ShareRide.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShareRide.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShareRide/Pods-ShareRide.debug.xcconfig"; sourceTree = "<group>"; };
+		7207ECED1EAEDCA300D5C9C1 /* SegueFromLeft.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegueFromLeft.swift; sourceTree = "<group>"; };
+		7207ECEF1EAEE2F900D5C9C1 /* SegueFromLeftWithNoNav.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegueFromLeftWithNoNav.swift; sourceTree = "<group>"; };
+		7207ECF11EAEE4D300D5C9C1 /* SegueFromRightWithNoNav.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegueFromRightWithNoNav.swift; sourceTree = "<group>"; };
+		7207ECF31EAEF2A400D5C9C1 /* ActivitiesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivitiesViewController.swift; sourceTree = "<group>"; };
+		7207ECF51EAEF4FD00D5C9C1 /* ActivitiesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivitiesTableViewCell.swift; sourceTree = "<group>"; };
+		7230A51E1EB164410096E89C /* RequestInformationItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestInformationItem.swift; sourceTree = "<group>"; };
+		7230A5201EB1685F0096E89C /* MyRideDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyRideDetailsViewController.swift; sourceTree = "<group>"; };
+		7230A5241EB174A00096E89C /* MainTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		7242C7961EA84015001E5FD2 /* RideInformationItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RideInformationItem.swift; sourceTree = "<group>"; };
+		7242C7981EA843CB001E5FD2 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		7242C79A1EA8450E001E5FD2 /* AvailableRidesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvailableRidesTableViewController.swift; sourceTree = "<group>"; };
+		7242C79C1EA847C7001E5FD2 /* AvailableRidesCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvailableRidesCell.swift; sourceTree = "<group>"; };
+		7242C79E1EA84978001E5FD2 /* PostRideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostRideViewController.swift; sourceTree = "<group>"; };
+		7242C7A01EA85116001E5FD2 /* RidesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RidesViewController.swift; sourceTree = "<group>"; };
+		7242C7A21EA8570D001E5FD2 /* RideDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RideDetailsViewController.swift; sourceTree = "<group>"; };
+		72EC25E81EA199C1006F3F17 /* ShareRide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShareRide.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		72EC25EB1EA199C1006F3F17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		72EC25F21EA199C1006F3F17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		72EC25F51EA199C1006F3F17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		72EC25F71EA199C1006F3F17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72EC25FF1EA1A596006F3F17 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		72EC26011EA1A5A9006F3F17 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		AC2B26791ED255B20011FD5B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AC2B267B1ED2576C0011FD5B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../../../Downloads/Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72EC25E51EA199C1006F3F17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50E057550A884F730C90DE3F /* Pods_ShareRide.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		533EDED9370B7C38597FEEFF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				613118740485C4D18B8A1132 /* Pods-ShareRide.debug.xcconfig */,
+				5071B0FC8073FFA20A3F56F1 /* Pods-ShareRide.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7242C7951EA83FCF001E5FD2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7242C7961EA84015001E5FD2 /* RideInformationItem.swift */,
+				7242C7981EA843CB001E5FD2 /* User.swift */,
+				7230A51E1EB164410096E89C /* RequestInformationItem.swift */,
+				0778AD811EC1218D00854C66 /* Channel.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		72EC25DF1EA199C1006F3F17 = {
+			isa = PBXGroup;
+			children = (
+				72EC25EA1EA199C1006F3F17 /* ShareRide */,
+				72EC25E91EA199C1006F3F17 /* Products */,
+				533EDED9370B7C38597FEEFF /* Pods */,
+				F4D2A376D25BF934C0448618 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		72EC25E91EA199C1006F3F17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72EC25E81EA199C1006F3F17 /* ShareRide.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72EC25EA1EA199C1006F3F17 /* ShareRide */ = {
+			isa = PBXGroup;
+			children = (
+				7242C7951EA83FCF001E5FD2 /* Models */,
+				074DE5A91EA2BD0800E0121B /* ShareRide.entitlements */,
+				72EC25FD1EA1A522006F3F17 /* Supporting Files */,
+				72EC25FE1EA1A536006F3F17 /* View Controllers */,
+				72EC25F41EA199C1006F3F17 /* LaunchScreen.storyboard */,
+				AC2B267B1ED2576C0011FD5B /* Main.storyboard */,
+				72EC25F21EA199C1006F3F17 /* Assets.xcassets */,
+				AC2B26791ED255B20011FD5B /* GoogleService-Info.plist */,
+			);
+			path = ShareRide;
+			sourceTree = "<group>";
+		};
+		72EC25FD1EA1A522006F3F17 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				72EC25EB1EA199C1006F3F17 /* AppDelegate.swift */,
+				72EC25F71EA199C1006F3F17 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		72EC25FE1EA1A536006F3F17 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				72EC25FF1EA1A596006F3F17 /* LoginViewController.swift */,
+				72EC26011EA1A5A9006F3F17 /* RegisterViewController.swift */,
+				7242C79A1EA8450E001E5FD2 /* AvailableRidesTableViewController.swift */,
+				7242C79C1EA847C7001E5FD2 /* AvailableRidesCell.swift */,
+				7242C79E1EA84978001E5FD2 /* PostRideViewController.swift */,
+				7242C7A01EA85116001E5FD2 /* RidesViewController.swift */,
+				7242C7A21EA8570D001E5FD2 /* RideDetailsViewController.swift */,
+				07BE297E1EAEC8F300BA6F7D /* SettingsTableViewCell.swift */,
+				7207ECED1EAEDCA300D5C9C1 /* SegueFromLeft.swift */,
+				7207ECEF1EAEE2F900D5C9C1 /* SegueFromLeftWithNoNav.swift */,
+				7207ECF11EAEE4D300D5C9C1 /* SegueFromRightWithNoNav.swift */,
+				7207ECF31EAEF2A400D5C9C1 /* ActivitiesViewController.swift */,
+				7207ECF51EAEF4FD00D5C9C1 /* ActivitiesTableViewCell.swift */,
+				7230A5201EB1685F0096E89C /* MyRideDetailsViewController.swift */,
+				7230A5241EB174A00096E89C /* MainTabBarViewController.swift */,
+				07C5116C1EB6E7FD00707B37 /* NotificationsTableViewCell.swift */,
+				07C5116E1EB6FAF300707B37 /* NotificationsViewController.swift */,
+				0778AD751EBE589E00854C66 /* MessagesViewController.swift */,
+				0778AD791EBEA36F00854C66 /* SettingsViewController.swift */,
+				0778AD7D1EC10CA400854C66 /* MessagesTableViewCell.swift */,
+				0778AD7F1EC11C7100854C66 /* ChatViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		F4D2A376D25BF934C0448618 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15EB194B3FBF815F08F416D7 /* Pods_ShareRide.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		72EC25E71EA199C1006F3F17 /* ShareRide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72EC25FA1EA199C1006F3F17 /* Build configuration list for PBXNativeTarget "ShareRide" */;
+			buildPhases = (
+				1BA3D25868C95D48F6ABF5FF /* [CP] Check Pods Manifest.lock */,
+				72EC25E41EA199C1006F3F17 /* Sources */,
+				72EC25E51EA199C1006F3F17 /* Frameworks */,
+				72EC25E61EA199C1006F3F17 /* Resources */,
+				1E8A18F9B949BBD1456EA354 /* [CP] Embed Pods Frameworks */,
+				B4EE112888670604A69EDBCE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShareRide;
+			productName = ShareRide;
+			productReference = 72EC25E81EA199C1006F3F17 /* ShareRide.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72EC25E01EA199C1006F3F17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Dung Le";
+				TargetAttributes = {
+					72EC25E71EA199C1006F3F17 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = TSRANL5S76;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 72EC25E31EA199C1006F3F17 /* Build configuration list for PBXProject "ShareRide" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 72EC25DF1EA199C1006F3F17;
+			productRefGroup = 72EC25E91EA199C1006F3F17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72EC25E71EA199C1006F3F17 /* ShareRide */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72EC25E61EA199C1006F3F17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72EC25F61EA199C1006F3F17 /* LaunchScreen.storyboard in Resources */,
+				AC2B267A1ED255B20011FD5B /* GoogleService-Info.plist in Resources */,
+				72EC25F31EA199C1006F3F17 /* Assets.xcassets in Resources */,
+				AC2B267C1ED2576C0011FD5B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1BA3D25868C95D48F6ABF5FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1E8A18F9B949BBD1456EA354 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShareRide/Pods-ShareRide-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4EE112888670604A69EDBCE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShareRide/Pods-ShareRide-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72EC25E41EA199C1006F3F17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7242C79F1EA84978001E5FD2 /* PostRideViewController.swift in Sources */,
+				7242C7A31EA8570D001E5FD2 /* RideDetailsViewController.swift in Sources */,
+				07BE297F1EAEC8F300BA6F7D /* SettingsTableViewCell.swift in Sources */,
+				0778AD7E1EC10CA500854C66 /* MessagesTableViewCell.swift in Sources */,
+				7207ECF61EAEF4FD00D5C9C1 /* ActivitiesTableViewCell.swift in Sources */,
+				07C5116D1EB6E7FD00707B37 /* NotificationsTableViewCell.swift in Sources */,
+				7207ECF21EAEE4D300D5C9C1 /* SegueFromRightWithNoNav.swift in Sources */,
+				7230A5251EB174A00096E89C /* MainTabBarViewController.swift in Sources */,
+				72EC26021EA1A5A9006F3F17 /* RegisterViewController.swift in Sources */,
+				0778AD7A1EBEA36F00854C66 /* SettingsViewController.swift in Sources */,
+				7207ECF01EAEE2F900D5C9C1 /* SegueFromLeftWithNoNav.swift in Sources */,
+				7242C7A11EA85116001E5FD2 /* RidesViewController.swift in Sources */,
+				7207ECEE1EAEDCA300D5C9C1 /* SegueFromLeft.swift in Sources */,
+				7242C7971EA84015001E5FD2 /* RideInformationItem.swift in Sources */,
+				7230A5211EB1685F0096E89C /* MyRideDetailsViewController.swift in Sources */,
+				72EC26001EA1A596006F3F17 /* LoginViewController.swift in Sources */,
+				7242C79D1EA847C7001E5FD2 /* AvailableRidesCell.swift in Sources */,
+				7242C7991EA843CB001E5FD2 /* User.swift in Sources */,
+				72EC25EC1EA199C1006F3F17 /* AppDelegate.swift in Sources */,
+				07C5116F1EB6FAF300707B37 /* NotificationsViewController.swift in Sources */,
+				7207ECF41EAEF2A400D5C9C1 /* ActivitiesViewController.swift in Sources */,
+				0778AD821EC1218D00854C66 /* Channel.swift in Sources */,
+				7230A51F1EB164410096E89C /* RequestInformationItem.swift in Sources */,
+				7242C79B1EA8450E001E5FD2 /* AvailableRidesTableViewController.swift in Sources */,
+				0778AD801EC11C7100854C66 /* ChatViewController.swift in Sources */,
+				0778AD761EBE589E00854C66 /* MessagesViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		72EC25F41EA199C1006F3F17 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72EC25F51EA199C1006F3F17 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		72EC25F81EA199C1006F3F17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		72EC25F91EA199C1006F3F17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		72EC25FB1EA199C1006F3F17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 613118740485C4D18B8A1132 /* Pods-ShareRide.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ShareRide/ShareRide.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = TSRANL5S76;
+				INFOPLIST_FILE = ShareRide/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.middlebury.cs466.ShareRide;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		72EC25FC1EA199C1006F3F17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5071B0FC8073FFA20A3F56F1 /* Pods-ShareRide.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ShareRide/ShareRide.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = TSRANL5S76;
+				INFOPLIST_FILE = ShareRide/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.middlebury.cs466.ShareRide;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		72EC25E31EA199C1006F3F17 /* Build configuration list for PBXProject "ShareRide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72EC25F81EA199C1006F3F17 /* Debug */,
+				72EC25F91EA199C1006F3F17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72EC25FA1EA199C1006F3F17 /* Build configuration list for PBXNativeTarget "ShareRide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72EC25FB1EA199C1006F3F17 /* Debug */,
+				72EC25FC1EA199C1006F3F17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 72EC25E01EA199C1006F3F17 /* Project object */;
+}
