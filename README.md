@@ -1,7 +1,7 @@
 # ShareRide
 Dung Le, Bennington College '18 (dungle@bennington.edu)
 
-Hamza Alsharhan, Middlebury College '17 (halsharhan@middlebury.edu)
+Hamza Alsarhan, Middlebury College '17 (halsarhan@middlebury.edu)
 
 ### Project Description
 ShareRide is an iOS application designed to help college students find and provide transportation for one another. The app allows users who has a car to post about their trip and how many free seats they have in their car. On the other hand, users looking for rides will be able to access the list of rides, with the ability to filter trips based on origin or destination. The riders are then able to request a ride by preliminarily booking it, and then await the driver’s acceptance. Once a match occurs, the driver and the rider can message each other through the app regarding further details about the trip, as well as possible compensations.
